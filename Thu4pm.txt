@@ -1,0 +1,23 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Building mydemo-app 1.0.4-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- jgitflow-maven-plugin:1.0-m5.1:release-start (default-cli) @ mydemo-app ---
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 3.995 s
+[INFO] Finished at: 2020-07-23T15:59:43+01:00
+[INFO] Final Memory: 18M/245M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal external.atlassian.jgitflow:jgitflow-maven-plugin:1.0-m5.1:release-start (default-cli) on project mydemo-app: Error starting release: Error starting release: org.eclipse.jgit.api.errors.InvalidRemoteException: Invalid remote: origin: git@github.com:daboone/jgitflow2.git: Server refused our key
+[ERROR] FATAL ERROR: No supported authentication methods available (server sent: publickey)
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException
