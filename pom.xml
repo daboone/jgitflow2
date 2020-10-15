@@ -71,9 +71,15 @@
         <plugin>
           <groupId>external.atlassian.jgitflow</groupId>
           <artifactId>jgitflow-maven-plugin</artifactId>
-          <version>1.0-m5.1</version>
+	  <version>1.0-m5.1</version>
+	  <dependencies>
+    <dependency>
+      <groupId>com.jcraft</groupId>
+      <artifactId>jsch</artifactId>
+      <version>0.1.54</version>
+    </dependency>
+  </dependencies>
           <configuration>
-              <enableSshAgent>true</enableSshAgent>
               <autoVersionSubmodules>true</autoVersionSubmodules>
               <pushFeatures>true</pushFeatures>
               <pushReleases>true</pushReleases>
@@ -83,7 +89,6 @@
                   <developBranchName>develop</developBranchName>
                   <versionTagPrefix>version-</versionTagPrefix>
               </flowInitContext>
-              <enableSshAgent>true</enableSshAgent>
               <scmCommentPrefix>DEVOPS-000 </scmCommentPrefix>
              </configuration>
 	      </plugin>
