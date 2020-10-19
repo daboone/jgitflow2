@@ -5,7 +5,7 @@
 
   <groupId>com.mydemo.app</groupId>
   <artifactId>mydemo-app</artifactId>
-  <version>1.0.6</version>
+  <version>1.0.7</version>
 
   <name>mydemo-app</name>
   <!-- FIXME change it to the project's website -->
@@ -72,7 +72,7 @@
           <groupId>external.atlassian.jgitflow</groupId>
           <artifactId>jgitflow-maven-plugin</artifactId>
 	  <version>1.0-m5.1</version>
-	  <dependencies>
+	 <dependencies>
     <dependency>
       <groupId>com.jcraft</groupId>
       <artifactId>jsch</artifactId>
